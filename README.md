@@ -10,6 +10,7 @@ The Solution: An automated pipeline using the T5 (Text-to-Text Transfer Transfor
 The Innovation: Unlike extractive tools that copy-paste sentences, Sync-Up uses Greedy Search decoding to paraphrase conversations while maintaining a "Fact-Checking Layer" that prevents hallucinations.
 
 Technical Specs & Performance
+![Model Performance](model_performance.png)
 Model: T5-Small (240MB) optimized for CPU inference.
 
 Dataset: SAMSum (16,000+ messenger-style dialogue pairs).
