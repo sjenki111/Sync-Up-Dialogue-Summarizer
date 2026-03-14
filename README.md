@@ -9,6 +9,7 @@ Reliability: We implemented a Fact-Checking Layer using Greedy Search decoding t
 
 2. Model Performance
    ![Model Performance](model_performance.png)
+   ![Model Performance](multi_sample_consistency.png)
 We evaluated the model across multiple samples to ensure it performs consistently across different types of conversations. Our technical benchmark is a ROUGE-L > 0.40, representing a summary accurate enough for a user to skip the original thread.
 
 ROUGE-1 : Measures keyword accuracy (Subjects and Objects).
